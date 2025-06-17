@@ -205,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: '/git.svg',
+    link: 'https://github.com/Arnavsao',
   },
   {
     id: 2,
     img: '/twit.svg',
+    link: 'https://x.com/_arnav_sao_',
   },
   {
     id: 3,
     img: '/link.svg',
+    link: 'https://www.linkedin.com/in/arnavsao/',
   },
 ]

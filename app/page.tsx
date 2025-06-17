@@ -7,10 +7,10 @@ import Grid from '@/components/Grid'
 import Footer from '@/components/Footer'
 import Clients from '@/components/Clients'
 import Approach from '@/components/Approach'
-import Experience from '@/components/Experience'
+// import Experience from '@/components/Experience'
 import RecentProjects from '@/components/RecentProjects'
 import { FloatingNav } from '@/components/ui/FloatingNavbar'
-import { GlowingEffectDemo } from '@/components/GlowingEffectDemo'
+// import { GlowingEffectDemo } from '@/components/GlowingEffectDemo'
 import {TimelineDemo} from '@/components/TimelineDemo'
 
 const Home = () => {
@@ -19,12 +19,12 @@ const Home = () => {
       <div className='max-w-7xl w-full'>
         <FloatingNav navItems={navItems} />
         <Hero />
-        <GlowingEffectDemo/>
+        {/* <GlowingEffectDemo/> */}
         <Grid />
         <TimelineDemo/>
         <RecentProjects />
         <Clients />
-        <Experience />
+        {/* <Experience /> */}
         <Approach />
         <Footer />
       </div>
