@@ -1,10 +1,13 @@
 import { FaLocationArrow } from 'react-icons/fa6'
+import { useState } from 'react'
 
 import MagicButton from './MagicButton'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 
 const Hero = () => {
+  const [isHovered, setIsHovered] = useState(false)
+
   return (
     <section id="about">
     <div className='pb-20 pt-36'>
@@ -60,17 +63,46 @@ const Hero = () => {
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
             Hi! I&apos;m Arnav, a Software Developer based on Earth.
           </p>
-          <a
-            href='https://drive.google.com/file/d/1rCmyb4x0RY8Twx5biKn0NjqRqKqsboAS/view?usp=sharing'
-            target='_blank'
-            rel='noopener noreferrer'
+          
+          <div 
+            className='flex items-center justify-center relative group mt-10'
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
           >
-            <MagicButton
-              title='Resume'
-              icon={<FaLocationArrow />}
-              position='right'
+            {/* Profile Image - Slides in from left */}
+            <img 
+              src="/profile photo.png" 
+              alt="profile photo" 
+              className={`
+                w-24 h-24 rounded-full border-2 border-violet-300 transition-all duration-500 ease-out
+                ${isHovered 
+                  ? 'opacity-100 transform translate-x-0 scale-100' 
+                  : 'opacity-0 transform -translate-x-8 scale-90'
+                }
+                absolute left-0 z-10
+              `} 
             />
-          </a>
+            
+            {/* Resume Button - Shifts to the right when image appears */}
+            <div 
+              className={`
+                transition-all duration-500 ease-out
+                ${isHovered ? 'transform translate-x-16' : 'transform translate-x-0'}
+              `}
+            >
+              <a
+                href='https://drive.google.com/file/d/1rCmyb4x0RY8Twx5biKn0NjqRqKqsboAS/view?usp=sharing'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <MagicButton
+                  title='Resume'
+                  icon={<FaLocationArrow />}
+                  position='right'
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
