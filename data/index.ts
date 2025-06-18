@@ -108,35 +108,35 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Arnav was a key contributor in our product launch at BridgeYU. His frontend expertise and attention to detail helped us deliver a clean, scalable UI. He takes full ownership of his work and always meets deadlines.",
+      "Arnav has consistently demonstrated professionalism, technical excellence, and a strong sense of ownership across every team he’s contributed to. At BridgeYU, he built and maintained over of the main web app's frontend, implemented scalable architecture with Redux Toolkit, and enhanced developer workflows with clean, modular components. His work ethic and communication made sprint planning smoother and deliveries more reliable.",
     name: 'Ajit Rana',
     title: 'CTO at BridgeYU',
     image: 'https://ca.slack-edge.com/T06TH7HBD6U-U06SUB7ED6X-8965cf2a2d5f-192'
   },
   {
     quote:
-      "Arnav handled the Community Page UI with complete ownership. He implemented theme toggling, reusable components, and state management with Redux Toolkit. His updates were clear, and he made our planning cycles much smoother.",
+      "I’ve seen Arnav take full ownership of feature delivery, from implementing responsive UI layouts to handling state logic with precision. He’s proactive in communication, clear with updates, and quick to understand business needs. His frontend contributions and collaborative spirit added tremendous value to our product and team dynamics.",
     name: 'Rohit Sengupta',
     title: 'Project Manager at BridgeYU',
     image: 'https://ca.slack-edge.com/T06TH7HBD6U-U06SMRDFJTY-76a35b78f428-192'
   },
   {
     quote:
-    "Arnav joined as a frontend intern and quickly became a valuable team member. He had a solid grasp of component-based design and modularized a complex layout with ease. Beyond just completing tasks, he took initiative—refactoring old components, enhancing responsiveness, and suggesting meaningful UI improvements. Despite being an intern, his work matched the quality and maturity of a full-time engineer. He's efficient, thoughtful, and a pleasure to work with.",
+      "Despite joining as an intern, Arnav approached the work like a seasoned developer. He modularized a complex layout, cleaned up legacy code, and suggested meaningful UI improvements. He worked independently when needed and contributed across our codebase with maturity and efficiency. A true asset to any team.",
     name: 'Patel Muhammad',
     title: 'Senior Frontend Developer at BridgeYU',
     image: 'https://ca.slack-edge.com/T06TH7HBD6U-U08M7MFU287-02ae7da787f6-192'
   },
   {
     quote:
-      "Arnav implemented GenAI chatbot features and RAG-based APIs during his time with us at TitansAI. He understood business needs and delivered ahead of time. His blend of frontend and AI systems knowledge is impressive.",
+      "Arnav was instrumental in implementing GenAI chatbot features and RAG-based API systems at TitansAI. He combined strong frontend skills with backend AI integration, understood client requirements quickly, and delivered solutions ahead of schedule. His ability to work across the stack and deliver clean, scalable code stood out during the entire freelance engagement.",
     name: 'Sam Yokubbaev',
     title: 'Founder & CEO at TitansAI',
     image: 'https://media.licdn.com/dms/image/v2/D4D03AQGoDqDp5J5T0Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726475196640?e=1755734400&v=beta&t=D7IMEugFya1wjiMZ9o1aAjZBZ8TciCVSpu4kAjtVTOs'
   },
   {
     quote:
-      "Arnav improved our frontend stability at HealthyBites by fixing layout issues and enhancing responsiveness. His attention to browser compatibility and performance was a big plus.",
+      "Arnav quickly improved the stability of our web frontend at HealthyBites by resolving layout inconsistencies and ensuring responsiveness across browsers. His contributions helped us deliver a polished product experience. His attention to performance optimization and cross-browser support was invaluable during tight deadlines.",
     name: 'Karan Vishwakarma',
     title: 'Tech Lead at HealthyBites',
     image: 'https://media.licdn.com/dms/image/v2/D5603AQHMPXdOQK2EyA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725742339732?e=1755734400&v=beta&t=qAceq4HBKatMzbaHKhDj7N3YkalSiPgr9plcEP2x17s'
