@@ -50,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: 'Currently building a JS Animation library',
+    title: 'Working on scalable frontend at BridgeYU',
     description: 'The Inside Scoop',
     className: 'md:col-span-3 md:row-span-2',
     imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
@@ -73,37 +73,37 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: '3D Solar System Planets to Explore',
-    des: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+    title: 'Tomato: Food Delivery Website',
+    des: 'Built a responsive MERN stack food delivery platform with real-time tracking and JWT-auth, enhancing user experience by 40%.',
     img: '/p1.svg',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
-    link: '/ui.earth.com',
+    iconLists: ['/re.svg', '/node.svg', '/express.svg', '/mongo.svg', '/jwt.svg'],
+    link: 'https://tomato-food-delivery-frontend.vercel.app/',
   },
   {
     id: 2,
-    title: 'Yoom - Video Conferencing App',
-    des: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
+    title: 'RAG System using OpenAI GPT-4',
+    des: 'Developed a scalable RAG system with LangChain and FAISS, processing 10k+ queries daily via FastAPI endpoints.',
     img: '/p2.svg',
-    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
-    link: '/ui.yoom.com',
+    iconLists: ['/py.svg', '/fastapi.svg', '/openai.svg', '/faiss.svg', '/langchain.svg'],
+    link: 'https://github.com/Arnavsao/Gail_Chatbot_Model',
   },
   {
     id: 3,
-    title: 'AI Image SaaS - Canva Application',
-    des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
+    title: 'Image Stitching Automation',
+    des: 'Automated panoramic image generation with OpenCV, supporting image preprocessing, contour detection, and CLI interaction.',
     img: '/p3.svg',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
-    link: '/ui.aiimg.com',
+    iconLists: ['/py.svg', '/opencv.svg', '/numpy.svg', '/imutils.svg', '/cli.svg'],
+    link: 'https://github.com/Arnavsao/DIC-Project-Image-Stitching-using-OpenCV',
   },
   {
     id: 4,
-    title: 'Animated Apple Iphone 3D Website',
-    des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
+    title: 'MultiModal RAG App for Video Processing',
+    des: 'Designed a MultiModal RAG system using LlamaIndex, LanceDB, and GPT-4V to process videos and generate context-rich responses.',
     img: '/p4.svg',
-    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
-    link: '/ui.apple.com',
+    iconLists: ['/llama.svg', '/lancedb.svg', '/openai.svg', '/yt.svg', '/vision.svg'],
+    link: 'https://github.com/Arnavsao/Gail_Chatbot_Model',
   },
-]
+];
 
 export const testimonials = [
   {
@@ -222,5 +222,10 @@ export const socialMedia = [
     id: 3,
     img: '/link.svg',
     link: 'https://www.linkedin.com/in/arnavsao/',
+  },
+  {
+    id: 4,
+    img: '/leetcode.svg',
+    link: 'https://leetcode.com/u/arnavsao1924/',
   },
 ]

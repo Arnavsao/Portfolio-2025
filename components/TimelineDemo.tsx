@@ -4,12 +4,20 @@ import { Timeline } from "@/components/ui/timeline";
 export function TimelineDemo() {
   const data = [
     {
-      title: "2024",
+      title: "2025",
       content: (
         <div>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Built and launched Aceternity UI and Aceternity UI Pro from scratch
-          </p>
+          <div>
+      <p className="mb-2 text-lg font-semibold text-neutral-800 md:text-sm dark:text-neutral-200">
+        BridgeYu: SDE Intern
+      </p>
+      <ul className="list-disc pl-5 mb-4 text-xs font-normal text-neutral-700 md:text-sm dark:text-neutral-300 space-y-1">
+        <li>Led the frontend development of the main web application using React, Redux, and RTK Query.</li>
+        <li>Worked collaboratively in an agile team, participating in daily standups, code reviews, and sprint planning.</li>
+        <li>Implemented scalable state management and API integration to enhance performance and maintainability.</li>
+        <li>Utilized Jira, GitHub, and Slack for efficient project tracking and team communication.</li>
+      </ul>
+    </div>
           <div className="grid grid-cols-2 gap-4">
             <img
               src="https://assets.aceternity.com/templates/startup-1.webp"
@@ -44,17 +52,19 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Early 2023",
+      title: "Late 2024",
       content: (
         <div>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            I usually run out of copy, but when I see content this big, I try to
-            integrate lorem ipsum.
-          </p>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Lorem ipsum is for people who are too lazy to write copy. But we are
-            not. Here are some more example of beautiful designs I built.
-          </p>
+          <div>
+      <p className="mb-2 text-lg font-semibold text-neutral-800 md:text-sm dark:text-neutral-200">
+        Titans AI
+      </p>
+      <ul className="list-disc pl-5 mb-4 text-xs font-normal text-neutral-700 md:text-sm dark:text-neutral-300 space-y-1">
+        <li>Built AI chatbots with NLP to improve user interaction and automate repetitive workflows.</li>
+        <li>Integrated third-party SDKs into mobile applications to enhance core functionality.</li>
+        <li>Collaborated with designers and data scientists to deliver polished features on time.</li>
+      </ul>
+    </div>
           <div className="grid grid-cols-2 gap-4">
             <img
               src="https://assets.aceternity.com/pro/hero-sections.png"
@@ -89,29 +99,59 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Changelog",
+      title: "Open Source Contributions",
       content: (
         <div>
-          <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Deployed 5 new components on Aceternity today
-          </p>
-          <div className="mb-8">
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Card grid component
-            </div>
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Startup template Aceternity
-            </div>
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Random file upload lol
-            </div>
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Himesh Reshammiya Music CD
-            </div>
-            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Salman Bhai Fan Club registrations open
-            </div>
-          </div>
+  <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+    Participated in GSSOC 2024 and contributed to 2 open-source projects
+  </p>
+  <div className="mb-8 space-y-2">
+    <div className="flex flex-col text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
+      <span className="font-medium">✅ AgriLearnNetwork</span>
+      <span>
+        Added chatbot integration and designed the contact page.{' '}
+        <a
+          href="https://github.com/Arnavsao/AgriLearnNetwork"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:underline"
+        >
+          GitHub ↗
+        </a>
+      </span>
+    </div>
+    <div className="flex flex-col text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
+      <span className="font-medium">✅ krishiconnect</span>
+      <span>
+        Implemented light/dark themes, created the hero section, and made the site fully responsive.{' '}
+        <a
+          href="https://github.com/Arnavsao/krishiconnect"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:underline"
+        >
+          GitHub ↗
+        </a>
+      </span>
+    </div>
+  </div>
+</div>
+      ),
+    },
+    {
+      title: "Early 2024",
+      content: (
+        <div>
+          <div>
+      <p className="mb-2 text-lg font-semibold text-neutral-800 md:text-sm dark:text-neutral-200">
+        HealthyBites
+      </p>
+      <ul className="list-disc pl-5 mb-4 text-xs font-normal text-neutral-700 md:text-sm dark:text-neutral-300 space-y-1">
+        <li>Developed and maintained a responsive frontend using Next.js and Tailwind CSS.</li>
+        <li>Resolved major UI stability issues by integrating improved layout structures and graphical elements.</li>
+        <li>Ensured SEO best practices, accessibility compliance, and cross-browser compatibility across the platform.</li>
+      </ul>
+    </div>
           <div className="grid grid-cols-2 gap-4">
             <img
               src="https://assets.aceternity.com/pro/hero-sections.png"
