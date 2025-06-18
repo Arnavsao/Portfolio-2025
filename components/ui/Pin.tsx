@@ -29,9 +29,12 @@ export const PinContainer = ({
   }
 
   return (
-    <div
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
       className={cn(
-        'relative group/pin z-50  cursor-pointer',
+        'relative group/pin z-50 cursor-pointer block',
         containerClassName
       )}
       onMouseEnter={onMouseEnter}
@@ -55,7 +58,7 @@ export const PinContainer = ({
         </div>
       </div>
       <PinPerspective title={title} href={href} />
-    </div>
+    </a>
   )
 }
 
@@ -76,7 +79,7 @@ export const PinPerspective = ({
             target={'_blank'}
             className='relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-white/10 '
           >
-            <span className='relative z-20 text-white text-xs font-bold inline-block py-0.5'>
+            <span className='relative z-20 w-full text-white text-xs font-bold inline-block py-0.5'>
               {title}
             </span>
 

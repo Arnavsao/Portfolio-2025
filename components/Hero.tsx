@@ -58,7 +58,7 @@ const Hero = () => {
           />
 
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-            Hi! I&apos;m Arnav, a Next.js Developer based on Earth.
+            Hi! I&apos;m Arnav, a Software Developer based on Earth.
           </p>
           <a
             href='https://drive.google.com/file/d/1rCmyb4x0RY8Twx5biKn0NjqRqKqsboAS/view?usp=sharing'

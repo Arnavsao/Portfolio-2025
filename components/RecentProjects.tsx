@@ -6,6 +6,22 @@ import { projects } from '@/data'
 import { PinContainer } from './ui/Pin'
 
 const RecentProjects = () => {
+  // Custom titles for Pin component
+  const getPinTitle = (projectId: number) => {
+    switch (projectId) {
+      case 1:
+        return 'Tomato'
+      case 2:
+        return "Gail's Chatbot"
+      case 3:
+        return 'Image Stitching'
+      case 4:
+        return 'Multimodal RAG'
+      default:
+        return 'Project'
+    }
+  }
+
   return (
     <section id="projects" className="scroll-mt-20">
     <div className='py-20'>
@@ -20,8 +36,8 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title='Tomato'
-              href='https://tomato-food-delivery-frontend.vercel.app/'
+              title={getPinTitle(item.id)}
+              href={item.link}
             >
               <div className='relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10'>
                 <div
