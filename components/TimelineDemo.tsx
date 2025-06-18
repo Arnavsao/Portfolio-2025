@@ -57,7 +57,7 @@ export function TimelineDemo() {
         <div>
           <div>
       <p className="mb-2 text-lg font-semibold text-neutral-800 md:text-sm dark:text-neutral-200">
-        Titans AI
+        Titans AI: Software Developer Freelancer
       </p>
       <ul className="list-disc pl-5 mb-4 text-xs font-normal text-neutral-700 md:text-sm dark:text-neutral-300 space-y-1">
         <li>Built AI chatbots with NLP to improve user interaction and automate repetitive workflows.</li>
@@ -144,7 +144,7 @@ export function TimelineDemo() {
         <div>
           <div>
       <p className="mb-2 text-lg font-semibold text-neutral-800 md:text-sm dark:text-neutral-200">
-        HealthyBites
+        HealthyBites: SDE Intern
       </p>
       <ul className="list-disc pl-5 mb-4 text-xs font-normal text-neutral-700 md:text-sm dark:text-neutral-300 space-y-1">
         <li>Developed and maintained a responsive frontend using Next.js and Tailwind CSS.</li>
