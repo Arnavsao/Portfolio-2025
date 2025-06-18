@@ -6,6 +6,7 @@ import { TextGenerateEffect } from './ui/TextGenerateEffect'
 
 const Hero = () => {
   return (
+    <section id="about">
     <div className='pb-20 pt-36'>
       {/**
        *  UI: Spotlights
@@ -59,10 +60,13 @@ const Hero = () => {
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
             Hi! I&apos;m Arnav, a Next.js Developer based on Earth.
           </p>
-
-          <a href='#about'>
+          <a
+            href='https://drive.google.com/file/d/1rCmyb4x0RY8Twx5biKn0NjqRqKqsboAS/view?usp=sharing'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <MagicButton
-              title='Show my work'
+              title='Resume'
               icon={<FaLocationArrow />}
               position='right'
             />
@@ -70,6 +74,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
+    </section>
   )
 }
 

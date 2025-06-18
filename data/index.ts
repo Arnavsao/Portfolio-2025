@@ -1,6 +1,7 @@
 export const navItems = [
   { name: 'About', link: '#about' },
   { name: 'Projects', link: '#projects' },
+  { name: 'Experience', link: '#experience' },
   { name: 'Testimonials', link: '#testimonials' },
   { name: 'Contact', link: '#contact' },
 ]
@@ -107,35 +108,40 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
+      "Arnav was a key contributor in our product launch at BridgeYU. His frontend expertise and attention to detail helped us deliver a clean, scalable UI. He takes full ownership of his work and always meets deadlines.",
+    name: 'Ajit Rana',
+    title: 'CTO at BridgeYU',
+    image: 'https://ca.slack-edge.com/T06TH7HBD6U-U06SUB7ED6X-8965cf2a2d5f-192'
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
+      "Arnav handled the Community Page UI with complete ownership. He implemented theme toggling, reusable components, and state management with Redux Toolkit. His updates were clear, and he made our planning cycles much smoother.",
+    name: 'Rohit Sengupta',
+    title: 'Project Manager at BridgeYU',
+    image: 'https://ca.slack-edge.com/T06TH7HBD6U-U06SMRDFJTY-76a35b78f428-192'
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
+    "Arnav joined as a frontend intern and quickly became a valuable team member. He had a solid grasp of component-based design and modularized a complex layout with ease. Beyond just completing tasks, he took initiative—refactoring old components, enhancing responsiveness, and suggesting meaningful UI improvements. Despite being an intern, his work matched the quality and maturity of a full-time engineer. He's efficient, thoughtful, and a pleasure to work with.",
+    name: 'Patel Muhammad',
+    title: 'Senior Frontend Developer at BridgeYU',
+    image: 'https://ca.slack-edge.com/T06TH7HBD6U-U08M7MFU287-02ae7da787f6-192'
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
+      "Arnav implemented GenAI chatbot features and RAG-based APIs during his time with us at TitansAI. He understood business needs and delivered ahead of time. His blend of frontend and AI systems knowledge is impressive.",
+    name: 'Sam Yokubbaev',
+    title: 'Founder & CEO at TitansAI',
+    image: 'https://media.licdn.com/dms/image/v2/D4D03AQGoDqDp5J5T0Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726475196640?e=1755734400&v=beta&t=D7IMEugFya1wjiMZ9o1aAjZBZ8TciCVSpu4kAjtVTOs'
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
+      "Arnav improved our frontend stability at HealthyBites by fixing layout issues and enhancing responsiveness. His attention to browser compatibility and performance was a big plus.",
+    name: 'Karan Vishwakarma',
+    title: 'Tech Lead at HealthyBites',
+    image: 'https://media.licdn.com/dms/image/v2/D5603AQHMPXdOQK2EyA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725742339732?e=1755734400&v=beta&t=qAceq4HBKatMzbaHKhDj7N3YkalSiPgr9plcEP2x17s'
   },
-]
+];
 
 export const companies = [
   {

@@ -7,6 +7,7 @@ import { PinContainer } from './ui/Pin'
 
 const RecentProjects = () => {
   return (
+    <section id="projects" className="scroll-mt-20">
     <div className='py-20'>
       <h1 className='heading'>
         A small selection of{' '}
@@ -74,9 +75,10 @@ const RecentProjects = () => {
               </div>
             </PinContainer>
           </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   )
 }
 
